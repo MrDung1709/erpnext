@@ -1,0 +1,88 @@
+2024-12-02 09:56:08,551 ERROR frappe New Exception collected in error log
+Site: chg.com
+Form Dict: {'app_path': 'website-settings'}
+2024-12-02 09:56:15,677 ERROR frappe New Exception collected in error log
+Site: chg.com
+Form Dict: {}
+2024-12-02 09:56:41,186 ERROR frappe New Exception collected in error log
+Site: chg.com
+Form Dict: {'app_path': 'website-settings'}
+2024-12-02 10:00:29,051 ERROR frappe Error while inserting deferred Error Log record: Error Log a1iqus2frd: '<strong>Title</strong>' (Module import failed for Webshop Settings, the DocType you're trying to open might be deleted.
+Error: No module named 'frappe.core.doctype.webshop_settings') will get truncated, as max characters allowed is 140
+Site: chg.com
+Form Dict: {}
+2024-12-02 10:00:29,063 ERROR frappe Error while inserting deferred Error Log record: Error Log b7bd501ivu: '<strong>Title</strong>' (Module import failed for Webshop Settings, the DocType you're trying to open might be deleted.
+Error: No module named 'frappe.core.doctype.webshop_settings') will get truncated, as max characters allowed is 140
+Site: chg.com
+Form Dict: {}
+2024-12-02 10:00:29,070 ERROR frappe Error while inserting deferred Error Log record: Error Log s23v3lil2h: '<strong>Title</strong>' (Module import failed for Webshop Settings, the DocType you're trying to open might be deleted.
+Error: No module named 'frappe.core.doctype.webshop_settings') will get truncated, as max characters allowed is 140
+Site: chg.com
+Form Dict: {}
+2024-12-02 10:06:50,412 ERROR frappe New Exception collected in error log
+Site: chg.com
+Form Dict: {'app_path': 'website-settings'}
+2024-12-02 10:07:21,704 ERROR frappe New Exception collected in error log
+Site: chg.com
+Form Dict: {'app_path': 'event/EV00002'}
+2024-12-02 10:07:24,823 ERROR frappe New Exception collected in error log
+Site: chg.com
+Form Dict: {'app_path': 'event/EV00002'}
+2024-12-02 10:08:42,254 ERROR frappe New Exception collected in error log
+Site: chg.com
+Form Dict: {'app_path': 'event/EV00002'}
+2024-12-02 10:09:40,091 ERROR frappe New Exception collected in error log
+Site: chg.com
+Form Dict: {'app_path': 'event/EV00002'}
+2024-12-02 10:09:59,248 ERROR frappe New Exception collected in error log
+Site: chg.com
+Form Dict: {}
+2024-12-02 10:19:25,655 ERROR frappe New Exception collected in error log
+Site: chg.com
+Form Dict: {}
+2024-12-02 10:20:58,207 ERROR frappe Error while inserting deferred Error Log record: Error Log j78mvofvm2: '<strong>Title</strong>' (Module import failed for Webshop Settings, the DocType you're trying to open might be deleted.
+Error: No module named 'frappe.core.doctype.webshop_settings') will get truncated, as max characters allowed is 140
+Site: chg.com
+Form Dict: {}
+2024-12-02 10:20:58,230 ERROR frappe Error while inserting deferred Error Log record: Error Log edpoqlnujq: '<strong>Title</strong>' (Module import failed for Webshop Settings, the DocType you're trying to open might be deleted.
+Error: No module named 'frappe.core.doctype.webshop_settings') will get truncated, as max characters allowed is 140
+Site: chg.com
+Form Dict: {}
+2024-12-02 10:20:58,243 ERROR frappe Error while inserting deferred Error Log record: Error Log njvjadg3is: '<strong>Title</strong>' (Module import failed for Webshop Settings, the DocType you're trying to open might be deleted.
+Error: No module named 'frappe.core.doctype.webshop_settings') will get truncated, as max characters allowed is 140
+Site: chg.com
+Form Dict: {}
+2024-12-02 10:20:58,256 ERROR frappe Error while inserting deferred Error Log record: Error Log mj9a8um8u7: '<strong>Title</strong>' (Module import failed for Webshop Settings, the DocType you're trying to open might be deleted.
+Error: No module named 'frappe.core.doctype.webshop_settings') will get truncated, as max characters allowed is 140
+Site: chg.com
+Form Dict: {}
+2024-12-02 10:20:58,288 ERROR frappe Error while inserting deferred Error Log record: Error Log j3t0n7kc09: '<strong>Title</strong>' (Module import failed for Webshop Settings, the DocType you're trying to open might be deleted.
+Error: No module named 'frappe.core.doctype.webshop_settings') will get truncated, as max characters allowed is 140
+Site: chg.com
+Form Dict: {}
+2024-12-02 10:20:58,330 ERROR frappe Error while inserting deferred Error Log record: Error Log b0t6b6rft3: '<strong>Title</strong>' (Module import failed for Webshop Settings, the DocType you're trying to open might be deleted.
+Error: No module named 'frappe.core.doctype.webshop_settings') will get truncated, as max characters allowed is 140
+Site: chg.com
+Form Dict: {}
+2024-12-02 10:20:58,385 ERROR frappe Error while inserting deferred Error Log record: Error Log qfl34cerq8: '<strong>Title</strong>' (Module import failed for Webshop Settings, the DocType you're trying to open might be deleted.
+Error: No module named 'frappe.core.doctype.webshop_settings') will get truncated, as max characters allowed is 140
+Site: chg.com
+Form Dict: {}
+2024-12-02 10:20:58,653 ERROR frappe New Exception collected in error log
+Site: chg.com
+Form Dict: {}
+2024-12-03 01:38:15,190 ERROR frappe New Exception collected in error log
+Site: chg.com
+Form Dict: {'doc': '{"name":"Sp U1.1","owner":"dungnt.nxcom@gmail.com","creation":"2024-12-02 02:43:06.519049","modified":"2024-12-02 02:43:06.519049","modified_by":"dungnt.nxcom@gmail.com","docstatus":0,"idx":0,"naming_series":"STO-ITEM-.YYYY.-","item_code":"Sp U1.1","item_name":"Sp U1.1","item_group":"U1","stock_uom":"Nos","disabled":0,"allow_alternative_item":0,"is_stock_item":1,"has_variants":0,"opening_stock":0,"valuation_rate":0,"standard_rate":0,"is_fixed_asset":0,"auto_create_assets":0,"is_grouped_asset":0,"over_delivery_receipt_allowance":0,"over_billing_allowance":0,"description":"Sp U1.1","shelf_life_in_days":0,"end_of_life":"2099-12-31","default_material_request_type":"Purchase","valuation_method":"","weight_per_unit":0,"allow_negative_stock":0,"has_batch_no":0,"create_new_batch":0,"has_expiry_date":0,"retain_sample":0,"sample_quantity":0,"has_serial_no":0,"variant_based_on":"Item Attribute","enable_deferred_expense":0,"no_of_months_exp":0,"enable_deferred_revenue":0,"no_of_months":0,"min_order_qty":0,"safety_stock":0,"is_purchase_item":1,"lead_time_days":0,"last_purchase_rate":0,"is_customer_provided_item":0,"delivered_by_supplier":0,"country_of_origin":"Vietnam","grant_commission":1,"is_sales_item":1,"max_discount":0,"inspection_required_before_purchase":0,"inspection_required_before_delivery":0,"include_item_in_manufacturing":1,"is_sub_contracted_item":0,"customer_code":"","total_projected_qty":0,"doctype":"Item","supplier_items":[],"customer_items":[],"taxes":[],"uoms":[{"name":"s1olhc3t6q","owner":"dungnt.nxcom@gmail.com","creation":"2024-12-02 02:43:06.937496","modified":"2024-12-02 02:43:06.937496","modified_by":"dungnt.nxcom@gmail.com","docstatus":0,"idx":1,"uom":"Nos","conversion_factor":1,"parent":"Sp U1.1","parentfield":"uoms","parenttype":"Item","doctype":"UOM Conversion Detail"}],"attributes":[],"reorder_levels":[],"item_defaults":[{"name":"sb8drjji2p","owner":"dungnt.nxcom@gmail.com","creation":"2024-12-02 02:43:06.945496","modified":"2024-12-02 02:43:06.945496","modified_by":"dungnt.nxcom@gmail.com","docstatus":0,"idx":1,"company":"chg","default_warehouse":"Stores - chg","parent":"Sp U1.1","parentfield":"item_defaults","parenttype":"Item","doctype":"Item Default"}],"barcodes":[],"__onload":{"stock_exists":0,"asset_naming_series":"ACC-ASS-.YYYY.-"},"__last_sync_on":"2024-12-03T01:38:09.916Z"}', 'cmd': 'webshop.webshop.doctype.website_item.website_item.make_website_item'}
+2024-12-03 01:40:56,885 ERROR frappe New Exception collected in error log
+Site: chg.com
+Form Dict: {'doc': '{"name":"Sp U1.1","owner":"dungnt.nxcom@gmail.com","creation":"2024-12-02 02:43:06.519049","modified":"2024-12-02 02:43:06.519049","modified_by":"dungnt.nxcom@gmail.com","docstatus":0,"idx":0,"naming_series":"STO-ITEM-.YYYY.-","item_code":"Sp U1.1","item_name":"Sp U1.1","item_group":"U1","stock_uom":"Nos","disabled":0,"allow_alternative_item":0,"is_stock_item":1,"has_variants":0,"opening_stock":0,"valuation_rate":0,"standard_rate":0,"is_fixed_asset":0,"auto_create_assets":0,"is_grouped_asset":0,"over_delivery_receipt_allowance":0,"over_billing_allowance":0,"description":"Sp U1.1","shelf_life_in_days":0,"end_of_life":"2099-12-31","default_material_request_type":"Purchase","valuation_method":"","weight_per_unit":0,"allow_negative_stock":0,"has_batch_no":0,"create_new_batch":0,"has_expiry_date":0,"retain_sample":0,"sample_quantity":0,"has_serial_no":0,"variant_based_on":"Item Attribute","enable_deferred_expense":0,"no_of_months_exp":0,"enable_deferred_revenue":0,"no_of_months":0,"min_order_qty":0,"safety_stock":0,"is_purchase_item":1,"lead_time_days":0,"last_purchase_rate":0,"is_customer_provided_item":0,"delivered_by_supplier":0,"country_of_origin":"Vietnam","grant_commission":1,"is_sales_item":1,"max_discount":0,"inspection_required_before_purchase":0,"inspection_required_before_delivery":0,"include_item_in_manufacturing":1,"is_sub_contracted_item":0,"customer_code":"","total_projected_qty":0,"doctype":"Item","supplier_items":[],"customer_items":[],"taxes":[],"uoms":[{"name":"s1olhc3t6q","owner":"dungnt.nxcom@gmail.com","creation":"2024-12-02 02:43:06.937496","modified":"2024-12-02 02:43:06.937496","modified_by":"dungnt.nxcom@gmail.com","docstatus":0,"idx":1,"uom":"Nos","conversion_factor":1,"parent":"Sp U1.1","parentfield":"uoms","parenttype":"Item","doctype":"UOM Conversion Detail"}],"attributes":[],"reorder_levels":[],"item_defaults":[{"name":"sb8drjji2p","owner":"dungnt.nxcom@gmail.com","creation":"2024-12-02 02:43:06.945496","modified":"2024-12-02 02:43:06.945496","modified_by":"dungnt.nxcom@gmail.com","docstatus":0,"idx":1,"company":"chg","default_warehouse":"Stores - chg","parent":"Sp U1.1","parentfield":"item_defaults","parenttype":"Item","doctype":"Item Default"}],"barcodes":[],"__onload":{"stock_exists":0,"asset_naming_series":"ACC-ASS-.YYYY.-"},"__last_sync_on":"2024-12-03T01:38:09.916Z"}', 'cmd': 'webshop.webshop.doctype.website_item.website_item.make_website_item'}
+2024-12-03 01:51:29,574 ERROR frappe New Exception collected in error log
+Site: chg.com
+Form Dict: {'doc': '{"name":"Sp U1.1","owner":"dungnt.nxcom@gmail.com","creation":"2024-12-02 02:43:06.519049","modified":"2024-12-02 02:43:06.519049","modified_by":"dungnt.nxcom@gmail.com","docstatus":0,"idx":0,"naming_series":"STO-ITEM-.YYYY.-","item_code":"Sp U1.1","item_name":"Sp U1.1","item_group":"U1","stock_uom":"Nos","disabled":0,"allow_alternative_item":0,"is_stock_item":1,"has_variants":0,"opening_stock":0,"valuation_rate":0,"standard_rate":0,"is_fixed_asset":0,"auto_create_assets":0,"is_grouped_asset":0,"over_delivery_receipt_allowance":0,"over_billing_allowance":0,"description":"Sp U1.1","shelf_life_in_days":0,"end_of_life":"2099-12-31","default_material_request_type":"Purchase","valuation_method":"","weight_per_unit":0,"allow_negative_stock":0,"has_batch_no":0,"create_new_batch":0,"has_expiry_date":0,"retain_sample":0,"sample_quantity":0,"has_serial_no":0,"variant_based_on":"Item Attribute","enable_deferred_expense":0,"no_of_months_exp":0,"enable_deferred_revenue":0,"no_of_months":0,"min_order_qty":0,"safety_stock":0,"is_purchase_item":1,"lead_time_days":0,"last_purchase_rate":0,"is_customer_provided_item":0,"delivered_by_supplier":0,"country_of_origin":"Vietnam","grant_commission":1,"is_sales_item":1,"max_discount":0,"inspection_required_before_purchase":0,"inspection_required_before_delivery":0,"include_item_in_manufacturing":1,"is_sub_contracted_item":0,"customer_code":"","total_projected_qty":0,"doctype":"Item","supplier_items":[],"customer_items":[],"taxes":[],"uoms":[{"name":"s1olhc3t6q","owner":"dungnt.nxcom@gmail.com","creation":"2024-12-02 02:43:06.937496","modified":"2024-12-02 02:43:06.937496","modified_by":"dungnt.nxcom@gmail.com","docstatus":0,"idx":1,"uom":"Nos","conversion_factor":1,"parent":"Sp U1.1","parentfield":"uoms","parenttype":"Item","doctype":"UOM Conversion Detail"}],"attributes":[],"reorder_levels":[],"item_defaults":[{"name":"sb8drjji2p","owner":"dungnt.nxcom@gmail.com","creation":"2024-12-02 02:43:06.945496","modified":"2024-12-02 02:43:06.945496","modified_by":"dungnt.nxcom@gmail.com","docstatus":0,"idx":1,"company":"chg","default_warehouse":"Stores - chg","parent":"Sp U1.1","parentfield":"item_defaults","parenttype":"Item","doctype":"Item Default"}],"barcodes":[],"__onload":{"stock_exists":0,"asset_naming_series":"ACC-ASS-.YYYY.-"},"__last_sync_on":"2024-12-03T01:51:19.755Z"}', 'cmd': 'webshop.webshop.doctype.website_item.website_item.make_website_item'}
+2024-12-03 01:57:02,222 ERROR frappe New Exception collected in error log
+Site: chg.com
+Form Dict: {'doc': '{"name":"Sp U1.1","owner":"dungnt.nxcom@gmail.com","creation":"2024-12-02 02:43:06.519049","modified":"2024-12-02 02:43:06.519049","modified_by":"dungnt.nxcom@gmail.com","docstatus":0,"idx":0,"naming_series":"STO-ITEM-.YYYY.-","item_code":"Sp U1.1","item_name":"Sp U1.1","item_group":"U1","stock_uom":"Nos","disabled":0,"allow_alternative_item":0,"is_stock_item":1,"has_variants":0,"opening_stock":0,"valuation_rate":0,"standard_rate":0,"is_fixed_asset":0,"auto_create_assets":0,"is_grouped_asset":0,"over_delivery_receipt_allowance":0,"over_billing_allowance":0,"description":"Sp U1.1","shelf_life_in_days":0,"end_of_life":"2099-12-31","default_material_request_type":"Purchase","valuation_method":"","weight_per_unit":0,"allow_negative_stock":0,"has_batch_no":0,"create_new_batch":0,"has_expiry_date":0,"retain_sample":0,"sample_quantity":0,"has_serial_no":0,"variant_based_on":"Item Attribute","enable_deferred_expense":0,"no_of_months_exp":0,"enable_deferred_revenue":0,"no_of_months":0,"min_order_qty":0,"safety_stock":0,"is_purchase_item":1,"lead_time_days":0,"last_purchase_rate":0,"is_customer_provided_item":0,"delivered_by_supplier":0,"country_of_origin":"Vietnam","grant_commission":1,"is_sales_item":1,"max_discount":0,"inspection_required_before_purchase":0,"inspection_required_before_delivery":0,"include_item_in_manufacturing":1,"is_sub_contracted_item":0,"customer_code":"","total_projected_qty":0,"doctype":"Item","supplier_items":[],"taxes":[],"barcodes":[],"customer_items":[],"attributes":[],"item_defaults":[{"name":"sb8drjji2p","owner":"dungnt.nxcom@gmail.com","creation":"2024-12-02 02:43:06.945496","modified":"2024-12-02 02:43:06.945496","modified_by":"dungnt.nxcom@gmail.com","docstatus":0,"idx":1,"company":"chg","default_warehouse":"Stores - chg","parent":"Sp U1.1","parentfield":"item_defaults","parenttype":"Item","doctype":"Item Default"}],"uoms":[{"name":"s1olhc3t6q","owner":"dungnt.nxcom@gmail.com","creation":"2024-12-02 02:43:06.937496","modified":"2024-12-02 02:43:06.937496","modified_by":"dungnt.nxcom@gmail.com","docstatus":0,"idx":1,"uom":"Nos","conversion_factor":1,"parent":"Sp U1.1","parentfield":"uoms","parenttype":"Item","doctype":"UOM Conversion Detail"}],"reorder_levels":[],"__onload":{"stock_exists":0,"asset_naming_series":"ACC-ASS-.YYYY.-"},"__last_sync_on":"2024-12-03T01:56:57.695Z"}', 'cmd': 'webshop.webshop.doctype.website_item.website_item.make_website_item'}
+2024-12-03 02:08:35,864 ERROR frappe New Exception collected in error log
+Site: chg.com
+Form Dict: {'doc': '{"name":"Sp U1.1","owner":"dungnt.nxcom@gmail.com","creation":"2024-12-02 02:43:06.519049","modified":"2024-12-02 02:43:06.519049","modified_by":"dungnt.nxcom@gmail.com","docstatus":0,"idx":0,"naming_series":"STO-ITEM-.YYYY.-","item_code":"Sp U1.1","item_name":"Sp U1.1","item_group":"U1","stock_uom":"Nos","disabled":0,"allow_alternative_item":0,"is_stock_item":1,"has_variants":0,"opening_stock":0,"valuation_rate":0,"standard_rate":0,"is_fixed_asset":0,"auto_create_assets":0,"is_grouped_asset":0,"over_delivery_receipt_allowance":0,"over_billing_allowance":0,"description":"Sp U1.1","shelf_life_in_days":0,"end_of_life":"2099-12-31","default_material_request_type":"Purchase","valuation_method":"","weight_per_unit":0,"allow_negative_stock":0,"has_batch_no":0,"create_new_batch":0,"has_expiry_date":0,"retain_sample":0,"sample_quantity":0,"has_serial_no":0,"variant_based_on":"Item Attribute","enable_deferred_expense":0,"no_of_months_exp":0,"enable_deferred_revenue":0,"no_of_months":0,"min_order_qty":0,"safety_stock":0,"is_purchase_item":1,"lead_time_days":0,"last_purchase_rate":0,"is_customer_provided_item":0,"delivered_by_supplier":0,"country_of_origin":"Vietnam","grant_commission":1,"is_sales_item":1,"max_discount":0,"inspection_required_before_purchase":0,"inspection_required_before_delivery":0,"include_item_in_manufacturing":1,"is_sub_contracted_item":0,"customer_code":"","total_projected_qty":0,"doctype":"Item","supplier_items":[],"taxes":[],"barcodes":[],"customer_items":[],"attributes":[],"item_defaults":[{"name":"sb8drjji2p","owner":"dungnt.nxcom@gmail.com","creation":"2024-12-02 02:43:06.945496","modified":"2024-12-02 02:43:06.945496","modified_by":"dungnt.nxcom@gmail.com","docstatus":0,"idx":1,"company":"chg","default_warehouse":"Stores - chg","parent":"Sp U1.1","parentfield":"item_defaults","parenttype":"Item","doctype":"Item Default"}],"uoms":[{"name":"s1olhc3t6q","owner":"dungnt.nxcom@gmail.com","creation":"2024-12-02 02:43:06.937496","modified":"2024-12-02 02:43:06.937496","modified_by":"dungnt.nxcom@gmail.com","docstatus":0,"idx":1,"uom":"Nos","conversion_factor":1,"parent":"Sp U1.1","parentfield":"uoms","parenttype":"Item","doctype":"UOM Conversion Detail"}],"reorder_levels":[],"__onload":{"stock_exists":0,"asset_naming_series":"ACC-ASS-.YYYY.-"},"__last_sync_on":"2024-12-03T02:08:31.438Z"}', 'cmd': 'webshop.webshop.doctype.website_item.website_item.make_website_item'}

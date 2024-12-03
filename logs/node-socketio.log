@@ -1,0 +1,640 @@
+Realtime service listening on:  9000
+Realtime service listening on:  9000
+Realtime service listening on:  9000
+Realtime service listening on:  9000
+Realtime service listening on:  9000
+Realtime service listening on:  9000
+Error: Not Found
+    at Request.callback (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:845:17)
+    at /home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:1070:18
+    at IncomingMessage.<anonymous> (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:21:7)
+    at Stream.emit (node:events:517:28)
+    at Unzip.<anonymous> (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/unzip.js:54:12)
+    at Unzip.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  status: 404,
+  response: <ref *1> Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      setEncoding: [Function (anonymous)],
+      on: [Function (anonymous)],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Event new-event-vtvnzbjiif not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1, \\\\\\"__frappe_exc_id\\\\\\": \\\\\\"3e0b2ef40e4780c0281cd6505c715f36ca55bb33e2f4a547d30c3126\\\\\\"}\\"]"}',
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 24,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _enableHttp2: false,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'http://127.0.0.1/api/method/frappe.realtime.can_subscribe_doc?sid=ff29b806c091ff6532f3fc8e24bb3cd7def84716be19bd86da90054a&doctype=Event&docname=new-event-vtvnzbjiif',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      _lookup: undefined,
+      req: [ClientRequest],
+      protocol: 'http:',
+      host: '127.0.0.1',
+      _endCalled: true,
+      _callback: [Function (anonymous)],
+      res: [IncomingMessage],
+      _resBuffered: true,
+      response: [Circular *1],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=ff29b806c091ff6532f3fc8e24bb3cd7def84716be19bd86da90054a&doctype=Event&docname=new-event-vtvnzbjiif HTTP/1.1\r\n' +
+        'Host: 127.0.0.1\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=ff29b806c091ff6532f3fc8e24bb3cd7def84716be19bd86da90054a&doctype=Event&docname=new-event-vtvnzbjiif',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: '127.0.0.1',
+      protocol: 'http:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Event new-event-vtvnzbjiif not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1, \\\\\\"__frappe_exc_id\\\\\\": \\\\\\"3e0b2ef40e4780c0281cd6505c715f36ca55bb33e2f4a547d30c3126\\\\\\"}\\"]"}',
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Mon, 02 Dec 2024 09:12:06 GMT',
+      'content-type': 'application/json',
+      'transfer-encoding': 'chunked',
+      connection: 'close',
+      vary: 'Accept-Encoding',
+      'set-cookie': [Array],
+      'content-encoding': 'gzip'
+    },
+    header: {
+      server: 'nginx',
+      date: 'Mon, 02 Dec 2024 09:12:06 GMT',
+      'content-type': 'application/json',
+      'transfer-encoding': 'chunked',
+      connection: 'close',
+      vary: 'Accept-Encoding',
+      'set-cookie': [Array],
+      'content-encoding': 'gzip'
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=ff29b806c091ff6532f3fc8e24bb3cd7def84716be19bd86da90054a&doctype=Event&docname=new-event-vtvnzbjiif (404)
+        at Response.toError (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:107:17)
+        at ResponseBase._setStatusProperties (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:107:48)
+        at new Response (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:44:8)
+        at Request._emitResponse (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:891:20)
+        at /home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:1070:38
+        at IncomingMessage.<anonymous> (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:21:7)
+        at Stream.emit (node:events:517:28)
+        at Unzip.<anonymous> (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/unzip.js:54:12)
+        at Unzip.emit (node:events:517:28)
+        at endReadableNT (node:internal/streams/readable:1400:12) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Event new-event-vtvnzbjiif not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1, \\\\\\"__frappe_exc_id\\\\\\": \\\\\\"3e0b2ef40e4780c0281cd6505c715f36ca55bb33e2f4a547d30c3126\\\\\\"}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=ff29b806c091ff6532f3fc8e24bb3cd7def84716be19bd86da90054a&doctype=Event&docname=new-event-vtvnzbjiif'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    _body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"Event new-event-vtvnzbjiif not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1, \\"__frappe_exc_id\\": \\"3e0b2ef40e4780c0281cd6505c715f36ca55bb33e2f4a547d30c3126\\"}"]'
+    },
+    pipe: [Function (anonymous)],
+    [Symbol(kCapture)]: false
+  }
+}
+Error: Not Found
+    at Request.callback (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:845:17)
+    at /home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:1070:18
+    at IncomingMessage.<anonymous> (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:21:7)
+    at Stream.emit (node:events:517:28)
+    at Unzip.<anonymous> (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/unzip.js:54:12)
+    at Unzip.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  status: 404,
+  response: <ref *1> Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      setEncoding: [Function (anonymous)],
+      on: [Function (anonymous)],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Event new-event-ywfdkloeun not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1, \\\\\\"__frappe_exc_id\\\\\\": \\\\\\"ea51c73b2f4176e9408228248ca4297acbab6208f3b4b8299e59792d\\\\\\"}\\"]"}',
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 24,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _enableHttp2: false,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'http://127.0.0.1/api/method/frappe.realtime.can_subscribe_doc?sid=ff29b806c091ff6532f3fc8e24bb3cd7def84716be19bd86da90054a&doctype=Event&docname=new-event-ywfdkloeun',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      _lookup: undefined,
+      req: [ClientRequest],
+      protocol: 'http:',
+      host: '127.0.0.1',
+      _endCalled: true,
+      _callback: [Function (anonymous)],
+      res: [IncomingMessage],
+      _resBuffered: true,
+      response: [Circular *1],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=ff29b806c091ff6532f3fc8e24bb3cd7def84716be19bd86da90054a&doctype=Event&docname=new-event-ywfdkloeun HTTP/1.1\r\n' +
+        'Host: 127.0.0.1\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=ff29b806c091ff6532f3fc8e24bb3cd7def84716be19bd86da90054a&doctype=Event&docname=new-event-ywfdkloeun',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: '127.0.0.1',
+      protocol: 'http:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Event new-event-ywfdkloeun not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1, \\\\\\"__frappe_exc_id\\\\\\": \\\\\\"ea51c73b2f4176e9408228248ca4297acbab6208f3b4b8299e59792d\\\\\\"}\\"]"}',
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Mon, 02 Dec 2024 09:15:02 GMT',
+      'content-type': 'application/json',
+      'transfer-encoding': 'chunked',
+      connection: 'close',
+      vary: 'Accept-Encoding',
+      'set-cookie': [Array],
+      'content-encoding': 'gzip'
+    },
+    header: {
+      server: 'nginx',
+      date: 'Mon, 02 Dec 2024 09:15:02 GMT',
+      'content-type': 'application/json',
+      'transfer-encoding': 'chunked',
+      connection: 'close',
+      vary: 'Accept-Encoding',
+      'set-cookie': [Array],
+      'content-encoding': 'gzip'
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=ff29b806c091ff6532f3fc8e24bb3cd7def84716be19bd86da90054a&doctype=Event&docname=new-event-ywfdkloeun (404)
+        at Response.toError (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:107:17)
+        at ResponseBase._setStatusProperties (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:107:48)
+        at new Response (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:44:8)
+        at Request._emitResponse (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:891:20)
+        at /home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:1070:38
+        at IncomingMessage.<anonymous> (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:21:7)
+        at Stream.emit (node:events:517:28)
+        at Unzip.<anonymous> (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/unzip.js:54:12)
+        at Unzip.emit (node:events:517:28)
+        at endReadableNT (node:internal/streams/readable:1400:12) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Event new-event-ywfdkloeun not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1, \\\\\\"__frappe_exc_id\\\\\\": \\\\\\"ea51c73b2f4176e9408228248ca4297acbab6208f3b4b8299e59792d\\\\\\"}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=ff29b806c091ff6532f3fc8e24bb3cd7def84716be19bd86da90054a&doctype=Event&docname=new-event-ywfdkloeun'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    _body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"Event new-event-ywfdkloeun not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1, \\"__frappe_exc_id\\": \\"ea51c73b2f4176e9408228248ca4297acbab6208f3b4b8299e59792d\\"}"]'
+    },
+    pipe: [Function (anonymous)],
+    [Symbol(kCapture)]: false
+  }
+}
+Error: Not Found
+    at Request.callback (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:845:17)
+    at /home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:1070:18
+    at IncomingMessage.<anonymous> (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:21:7)
+    at Stream.emit (node:events:517:28)
+    at Unzip.<anonymous> (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/unzip.js:54:12)
+    at Unzip.emit (node:events:517:28)
+    at endReadableNT (node:internal/streams/readable:1400:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  status: 404,
+  response: <ref *1> Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      setEncoding: [Function (anonymous)],
+      on: [Function (anonymous)],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Item new-item-ewhtdmuuiu not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1, \\\\\\"__frappe_exc_id\\\\\\": \\\\\\"10e0e860cab230e458c7f66706ea91b80deb078e4cd30690cf96b096\\\\\\"}\\"]"}',
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 24,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _enableHttp2: false,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'http://127.0.0.1/api/method/frappe.realtime.can_subscribe_doc?sid=ff29b806c091ff6532f3fc8e24bb3cd7def84716be19bd86da90054a&doctype=Item&docname=new-item-ewhtdmuuiu',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      _lookup: undefined,
+      req: [ClientRequest],
+      protocol: 'http:',
+      host: '127.0.0.1',
+      _endCalled: true,
+      _callback: [Function (anonymous)],
+      res: [IncomingMessage],
+      _resBuffered: true,
+      response: [Circular *1],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [Socket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=ff29b806c091ff6532f3fc8e24bb3cd7def84716be19bd86da90054a&doctype=Item&docname=new-item-ewhtdmuuiu HTTP/1.1\r\n' +
+        'Host: 127.0.0.1\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=ff29b806c091ff6532f3fc8e24bb3cd7def84716be19bd86da90054a&doctype=Item&docname=new-item-ewhtdmuuiu',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: '127.0.0.1',
+      protocol: 'http:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Item new-item-ewhtdmuuiu not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1, \\\\\\"__frappe_exc_id\\\\\\": \\\\\\"10e0e860cab230e458c7f66706ea91b80deb078e4cd30690cf96b096\\\\\\"}\\"]"}',
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Mon, 02 Dec 2024 09:44:45 GMT',
+      'content-type': 'application/json',
+      'transfer-encoding': 'chunked',
+      connection: 'close',
+      vary: 'Accept-Encoding',
+      'set-cookie': [Array],
+      'content-encoding': 'gzip'
+    },
+    header: {
+      server: 'nginx',
+      date: 'Mon, 02 Dec 2024 09:44:45 GMT',
+      'content-type': 'application/json',
+      'transfer-encoding': 'chunked',
+      connection: 'close',
+      vary: 'Accept-Encoding',
+      'set-cookie': [Array],
+      'content-encoding': 'gzip'
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=ff29b806c091ff6532f3fc8e24bb3cd7def84716be19bd86da90054a&doctype=Item&docname=new-item-ewhtdmuuiu (404)
+        at Response.toError (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:107:17)
+        at ResponseBase._setStatusProperties (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:107:48)
+        at new Response (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:44:8)
+        at Request._emitResponse (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:891:20)
+        at /home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:1070:38
+        at IncomingMessage.<anonymous> (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:21:7)
+        at Stream.emit (node:events:517:28)
+        at Unzip.<anonymous> (/home/frappe/frappe-bench/apps/frappe/node_modules/superagent/lib/node/unzip.js:54:12)
+        at Unzip.emit (node:events:517:28)
+        at endReadableNT (node:internal/streams/readable:1400:12) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Item new-item-ewhtdmuuiu not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1, \\\\\\"__frappe_exc_id\\\\\\": \\\\\\"10e0e860cab230e458c7f66706ea91b80deb078e4cd30690cf96b096\\\\\\"}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=ff29b806c091ff6532f3fc8e24bb3cd7def84716be19bd86da90054a&doctype=Item&docname=new-item-ewhtdmuuiu'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    _body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"Item new-item-ewhtdmuuiu not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1, \\"__frappe_exc_id\\": \\"10e0e860cab230e458c7f66706ea91b80deb078e4cd30690cf96b096\\"}"]'
+    },
+    pipe: [Function (anonymous)],
+    [Symbol(kCapture)]: false
+  }
+}
+Realtime service listening on:  9000
+Realtime service listening on:  9000
+Realtime service listening on:  9000
+Realtime service listening on:  9000
+Realtime service listening on:  9000
+Realtime service listening on:  9000
+Realtime service listening on:  9000
+Realtime service listening on:  9000
+Realtime service listening on:  9000
+Realtime service listening on:  9000
+Realtime service listening on:  9000
+Realtime service listening on:  9000
+Realtime service listening on:  9000
