@@ -88,3 +88,12 @@
 1473:M 03 Dec 2024 08:10:50.598 # Server initialized
 1473:M 03 Dec 2024 08:10:50.598 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
 1473:M 03 Dec 2024 08:10:50.610 * Ready to accept connections
+1524:C 04 Dec 2024 08:27:58.240 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1524:C 04 Dec 2024 08:27:58.240 # Redis version=7.0.15, bits=64, commit=00000000, modified=0, pid=1524, just started
+1524:C 04 Dec 2024 08:27:58.240 # Configuration loaded
+1524:M 04 Dec 2024 08:27:58.242 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+1524:M 04 Dec 2024 08:27:58.242 * monotonic clock: POSIX clock_gettime
+1524:M 04 Dec 2024 08:27:58.275 * Running mode=standalone, port=13000.
+1524:M 04 Dec 2024 08:27:58.275 # Server initialized
+1524:M 04 Dec 2024 08:27:58.275 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1524:M 04 Dec 2024 08:27:58.300 * Ready to accept connections

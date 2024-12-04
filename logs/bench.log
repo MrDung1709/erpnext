@@ -213,3 +213,7 @@ To avoid seeing this warning, set shallow_clone to false in your common_site_con
 2024-12-03 08:10:54,602 INFO /usr/local/bin/bench worker --queue long,default,short
 2024-12-03 08:10:54,604 INFO /usr/local/bin/bench schedule
 2024-12-03 08:10:54,605 INFO /usr/local/bin/bench worker --queue short,default
+2024-12-04 08:28:02,989 INFO /usr/local/bin/bench schedule
+2024-12-04 08:28:02,993 INFO /usr/local/bin/bench worker --queue short,default
+2024-12-04 08:28:02,990 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-12-04 08:28:05,347 INFO /usr/local/bin/bench version
